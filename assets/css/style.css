@@ -1,0 +1,23 @@
+.nf-logo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nf-icon-link {
+  color: var(--nf-muted);
+  font-size: 1.2rem;
+}
+
+.nf-icon-link:hover {
+  color: #fff;
+}
+
+/* Dropdown მენიუ */
+.dropdown-menu {
+  border: none;
+  min-width: 160px;
+}
+.dropdown-item:hover {
+  background-color: #333;
+}
