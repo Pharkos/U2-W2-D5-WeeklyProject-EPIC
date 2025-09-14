@@ -1,23 +1,15 @@
-.nf-logo {
-  height: 28px;
-  width: auto;
-  object-fit: contain;
+body {
+  background-color: #141414 !important;
 }
 
-.nf-icon-link {
-  color: var(--nf-muted);
-  font-size: 1.2rem;
+.bg-netflix {
+  background-color: #141414 !important;
 }
 
-.nf-icon-link:hover {
-  color: #fff;
+.movie-card img {
+  transition: transform 0.3s ease;
 }
-
-/* Dropdown მენიუ */
-.dropdown-menu {
-  border: none;
-  min-width: 160px;
-}
-.dropdown-item:hover {
-  background-color: #333;
+.movie-card img:hover {
+  transform: scale(1.1);
+  z-index: 2;
 }
